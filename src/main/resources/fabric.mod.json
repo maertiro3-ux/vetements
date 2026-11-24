@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "vetements",
+  "version": "${version}",
+  "name": "Vetements",
+  "description": "Fullbright, FreeLook, chat styles, prefixes/suffixes, math solver and AuthMe auto-login.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.vetements.mod.VetementsMod"
+    ]
+  },
+  "mixins": [
+    "vetements.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "minecraft": "1.16.5",
+    "java": ">=8",
+    "fabric": "*"
+  }
+}
